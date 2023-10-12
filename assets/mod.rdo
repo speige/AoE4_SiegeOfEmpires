@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--Siege of Empires/-->
+	<DataObject Name="Siege of Empires" Type="Mod" Id="1170320208906150211" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">5467683299333597580</DataValue>
+			<!--Siege of Empires/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="5467683299333597580" OwnerId="1170320208906150211">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="1774952607"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="2468809421"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1191864776"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1325047410"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">11366792211414097255</DataValue>
+			<!--Siege of Empires/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="11366792211414097255" OwnerId="1170320208906150211">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="1774952607"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="2468809421"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1191864776"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1325047410"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+
