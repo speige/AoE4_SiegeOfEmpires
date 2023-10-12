@@ -1,3 +1,4 @@
 ﻿ID,Pipeline,PipelineStage,Notes,TranslationNotes,Tags,Text
 1,,,Mod name.,,,Siege of Empires
 2,,,Mod description.,,,Tower Defense Game
+3,,,formatter,,,Garrison your units to attack the creeps which spawn each wave
