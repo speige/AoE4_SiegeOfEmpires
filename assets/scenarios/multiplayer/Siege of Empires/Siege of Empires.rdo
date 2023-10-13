@@ -1,0 +1,398 @@
+<DataWarehouse>
+	<!--PrecacheList/-->
+	<DataObject Name="" Type="PrecacheList" Id="14409794704909104728">
+		<DataProperty Name="m_precacheItems" Type="Object">
+			<DataValue Name="SquadPrecacheItem">11282583770978868337</DataValue>
+			<DataValue Name="SquadPrecacheItem">11280912967262499407</DataValue>
+			<DataValue Name="SquadPrecacheItem">4910436513084451260</DataValue>
+			<DataValue Name="SquadPrecacheItem">4101156237378232659</DataValue>
+			<DataValue Name="SquadPrecacheItem">6421293140015959799</DataValue>
+			<DataValue Name="SquadPrecacheItem">14892387739368938542</DataValue>
+			<DataValue Name="SquadPrecacheItem">1051495390875751374</DataValue>
+			<DataValue Name="SquadPrecacheItem">1106339434867520068</DataValue>
+			<DataValue Name="SquadPrecacheItem">3473182975861272495</DataValue>
+			<DataValue Name="SquadPrecacheItem">2462950125775324935</DataValue>
+			<DataValue Name="SquadPrecacheItem">1275760473590855602</DataValue>
+			<DataValue Name="SquadPrecacheItem">12998700763026602213</DataValue>
+			<DataValue Name="SquadPrecacheItem">9203350769253745831</DataValue>
+			<DataValue Name="SquadPrecacheItem">10119124943557064409</DataValue>
+			<DataValue Name="SquadPrecacheItem">9039131277798451031</DataValue>
+			<DataValue Name="SquadPrecacheItem">18156953180695501208</DataValue>
+			<DataValue Name="SquadPrecacheItem">17347934122111506238</DataValue>
+			<DataValue Name="SquadPrecacheItem">7277917271935450623</DataValue>
+			<DataValue Name="SquadPrecacheItem">11682068214057703765</DataValue>
+			<DataValue Name="SquadPrecacheItem">4497979730731690203</DataValue>
+			<DataValue Name="SquadPrecacheItem">2847632443164881836</DataValue>
+			<DataValue Name="SquadPrecacheItem">16468400826183436025</DataValue>
+			<DataValue Name="SquadPrecacheItem">10776389697143769701</DataValue>
+			<DataValue Name="SquadPrecacheItem">11603080379220009123</DataValue>
+			<DataValue Name="SquadPrecacheItem">530676558791195387</DataValue>
+			<DataValue Name="SquadPrecacheItem">6864455055836971164</DataValue>
+			<DataValue Name="SquadPrecacheItem">17533167734118131899</DataValue>
+			<DataValue Name="SquadPrecacheItem">8239192411214928899</DataValue>
+			<DataValue Name="SquadPrecacheItem">12958155544605896376</DataValue>
+			<DataValue Name="SquadPrecacheItem">67945506453979390</DataValue>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="67945506453979390" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">17304199568560590861</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="17304199568560590861" OwnerId="67945506453979390">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_30"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="530676558791195387" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">10392185751162525873</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="10392185751162525873" OwnerId="530676558791195387">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_25"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="1051495390875751374" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">1707668475821472697</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="1707668475821472697" OwnerId="1051495390875751374">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_7"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="1106339434867520068" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">3861474729601975409</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="3861474729601975409" OwnerId="1106339434867520068">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_8"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="1275760473590855602" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">11680409448288746320</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="11680409448288746320" OwnerId="1275760473590855602">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_11"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="2462950125775324935" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">9482337034070119197</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="9482337034070119197" OwnerId="2462950125775324935">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_10"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="2847632443164881836" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">4219595800985269548</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="4219595800985269548" OwnerId="2847632443164881836">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_21"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="3473182975861272495" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">16990479105107196127</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="16990479105107196127" OwnerId="3473182975861272495">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_9"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="4101156237378232659" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">6044946128139069334</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="6044946128139069334" OwnerId="4101156237378232659">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_4"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="4497979730731690203" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">14585164904978075117</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="14585164904978075117" OwnerId="4497979730731690203">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_20"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="4910436513084451260" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">7811232015757425477</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="7811232015757425477" OwnerId="4910436513084451260">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_3"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="6421293140015959799" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">10428488409027075186</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="10428488409027075186" OwnerId="6421293140015959799">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_5"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="6864455055836971164" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">348303203009302999</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="348303203009302999" OwnerId="6864455055836971164">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_26"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="7277917271935450623" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">16680014856159178822</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="16680014856159178822" OwnerId="7277917271935450623">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_18"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="8239192411214928899" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">16494927634840950607</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="16494927634840950607" OwnerId="8239192411214928899">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_28"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="9039131277798451031" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">12484220912585662344</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="12484220912585662344" OwnerId="9039131277798451031">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_15"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="9203350769253745831" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">16064230211365123310</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="16064230211365123310" OwnerId="9203350769253745831">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_13"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="10119124943557064409" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">9342476227624748883</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="9342476227624748883" OwnerId="10119124943557064409">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_14"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="10776389697143769701" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">15062358086425123681</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="15062358086425123681" OwnerId="10776389697143769701">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_23"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="11280912967262499407" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">5286899010256652347</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="5286899010256652347" OwnerId="11280912967262499407">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_2"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="11282583770978868337" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">17024683281381670905</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="17024683281381670905" OwnerId="11282583770978868337">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_1"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="11603080379220009123" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">4256363321846135163</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="4256363321846135163" OwnerId="11603080379220009123">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_24"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="11682068214057703765" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">8675823755688714860</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="8675823755688714860" OwnerId="11682068214057703765">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_19"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="12958155544605896376" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">2969965518914668791</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="2969965518914668791" OwnerId="12958155544605896376">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_29"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="12998700763026602213" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">1022573719540978569</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="1022573719540978569" OwnerId="12998700763026602213">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_12"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="14892387739368938542" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">18232157773383002808</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="18232157773383002808" OwnerId="14892387739368938542">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_6"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="16468400826183436025" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">9415726499152285878</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="9415726499152285878" OwnerId="16468400826183436025">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_22"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="17347934122111506238" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">16216971928150018525</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="16216971928150018525" OwnerId="17347934122111506238">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_17"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="17533167734118131899" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">1902873478872322240</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="1902873478872322240" OwnerId="17533167734118131899">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_27"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+			<!--PrecacheList/SquadPrecacheItem/-->
+			<DataObject Name="" Type="SquadPrecacheItem" Id="18156953180695501208" OwnerId="14409794704909104728">
+				<DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheItem#0|"/>
+				<DataProperty Name="m_blueprint" Type="Object">
+					<DataValue Name="ReflectPBG_SquadProperties">9003609380054217531</DataValue>
+					<!--PrecacheList/SquadPrecacheItem/ReflectPBG_SquadProperties/-->
+					<DataObject Name="" Type="ReflectPBG_SquadProperties" Id="9003609380054217531" OwnerId="18156953180695501208">
+						<DataProperty Name="#BaseTypes" Type="String" Value="PropertyBagGroupReflectReference#0|Provider_PropertyBagGroup#0|"/>
+						<DataProperty Name="m_fileName" Type="String" Value="470a69c89e724efa9fa0cb69cd0a2793:creep_wave_16"/>
+					</DataObject>
+				</DataProperty>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+

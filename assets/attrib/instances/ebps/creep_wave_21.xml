@@ -1,0 +1,110 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions" removedIds="-37156415, -1301307975, 1161182516, -2033544253">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1410792167" List.ParentItemID="-1410792167">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\units\unit_ram_3_rus" overrideParent="True" />
+			<float name="animator_scale" value="122" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<float name="entity_scale" value="100" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-487450359" List.ParentItemID="-487450359">
+			<bool name="regeneration_disabled" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1903432945" List.ParentItemID="-1903432945">
+			<list name="unit_type_list" removedIds="326942809, -162650548, -258036721, -524426531">
+				<enum name="unit_type" value="infantry" List.ItemID="790067125" List.ListAction="Append" />
+				<enum name="unit_type" value="photontrooper" List.ItemID="1979310955" List.ListAction="Append" />
+				<enum name="unit_type" value="human" List.ItemID="-1153386749" List.ListAction="Append" />
+				<enum name="unit_type" value="ranged" List.ItemID="710799578" List.ListAction="Append" />
+			</list>
+			<list name="attack_target_restriction_on_victim" removedIds="-1032832326, 393855275, 812379461, 1936881931, -780883146">
+				<enum name="unit_type" value="stone_wall" List.ItemID="-2073391492" List.ListAction="Append" />
+			</list>
+			<enum_table name="weapon_category_targeting_filter">
+				<bool name="2ranged" value="True" overrideParent="True" />
+				<bool name="3siege" value="False" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="517696132" List.ParentItemID="517696132">
+			<float name="decorator_height" value="2.75" overrideParent="True" />
+			<locstring name="help_text" value="0" overrideParent="True" />
+			<string name="hotkey_name" value="" overrideParent="True" />
+			<file name="icon_name" value="" overrideParent="True" />
+			<locstring name="screen_name" value="0" overrideParent="True" />
+			<float name="selection_scale" value="2" overrideParent="True" />
+			<locstring name="extra_text" value="0" overrideParent="True" />
+			<enum name="selection_method" value="obb_size" overrideParent="True" />
+			<list name="custom_selection_obbs" removedIds="2027688058, 1067718982, -20913403">
+			</list>
+			<string name="sound" value="" overrideParent="True" />
+			<group name="selection_obb_size">
+				<float name="x" value="3" overrideParent="True" />
+				<float name="y" value="2" overrideParent="True" />
+				<float name="z" value="3" overrideParent="True" />
+			</group>
+			<int name="global_unit_control_row" value="-1" overrideParent="True" />
+			<string name="tooltip_data_template" value="" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-780527790" List.ParentItemID="-780527790">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1886312333" List.ParentItemID="1886312333">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="827192862" List.ParentItemID="827192862">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\melee\weapon_ram_3_rus" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="190341173" List.ParentItemID="190341173">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="1369352417" List.ListAction="Append">
+					<group name="tier" List.ItemID="-432077280">
+						<list name="tier_requirements">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rus\units\tier3_ram_rus" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-265207407">
+						<list name="tier_requirements">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rus\units\tier4_ram_rus" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1982550370" List.ParentItemID="1982550370">
+			<instance_reference name="on_construction_squad" value="sbps\races\rus\unit_ram_3_rus" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741928" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units_buildable\unit_ram_3" />
+</instance>

@@ -3,17 +3,17 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1732939203">
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1153420861">
-					<group name="info">
+					<group name="info" overrideParent="True">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="7" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
-						<locstring name="help_text" value="6" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
+						<locstring name="extra_text" value="6" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
+						<locstring name="help_text" value="0" overrideParent="True" />
 						<string name="hotkey_name" value="" />
 						<file name="icon_name" value="gaia\animals\wolf" overrideParent="True" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11119184" />
+						<locstring name="screen_name" value="36" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
 						<string name="selection_group" value="deer" />
 						<int name="ui_priority" value="0" />
 						<bool name="use_random_entity_speaker" value="False" />
@@ -88,7 +88,7 @@
 			<list name="unit_list">
 				<group name="loadout_data" List.ItemID="981911980">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\gaia\animals\creep_wave_1" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
+					<instance_reference name="type" value="ebps\creep_wave_3" mod="470a69c89e724efa9fa0cb69cd0a2793" overrideParent="True" />
 					<list name="unit_attachments">
 					</list>
 					<bool name="is_default_unit" value="True" />
@@ -280,7 +280,7 @@
 			<bool name="browsable_in_editor" value="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="1324093857">
-			<instance_reference name="schema" value="statemodel_schema\gaia_values" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\villager" overrideParent="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-787168687">
 			<instance_reference name="default_command_weight" value="default_command_weight\default" />
@@ -302,6 +302,6 @@
 			<bool name="is_dynamic_audio_object" value="True" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741825" />
+	<uniqueid name="pbgid" value="1073741858" />
 	<instance_reference name="parent_pbg" value="sbps\races\core\unit_core" />
 </instance>

@@ -1,0 +1,120 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions" removedIds="1264315127, -626828007, -2035688276, -682345334">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1488394558" List.ParentItemID="-1488394558">
+			<int name="precise_size" value="1" overrideParent="True" />
+			<float name="animator_scale" value="50" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<float name="entity_scale" value="250" overrideParent="True" />
+			<enum name="subclass_type" value="Unit" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_fishing_boat" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-1643244036" List.ParentItemID="-1643244036">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="120" overrideParent="True" />
+					<float name="wood" value="0" overrideParent="True" />
+					<float name="gold" value="120" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="35" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1842945670" List.ParentItemID="-1842945670">
+			<float name="death_seconds" value="19" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Ranged" value="0" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1103749446" List.ParentItemID="1103749446">
+			<float name="personnel_pop" value="1" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-2117277016" List.ParentItemID="-2117277016">
+			<group name="sight_package">
+				<float name="inner_radius" value="26" overrideParent="True" />
+				<float name="outer_radius" value="50" overrideParent="True" />
+			</group>
+			<bool name="camouflage_detection_enabled" value="False" overrideParent="True" />
+			<float name="reveal_area_on_death_time" value="1.5" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1381839832" List.ParentItemID="-1381839832">
+			<enum_table name="weapon_category_targeting_filter">
+				<bool name="1melee" value="True" overrideParent="True" />
+				<bool name="3siege" value="False" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="159264144" List.ParentItemID="159264144">
+			<float name="decorator_height" value="2.75" overrideParent="True" />
+			<float name="selection_scale" value="2" overrideParent="True" />
+			<enum name="selection_method" value="obb_size" overrideParent="True" />
+			<list name="custom_selection_obbs" removedIds="503766728, -1687521015, -1256257049, 1782353420">
+			</list>
+			<group name="selection_obb_size">
+				<float name="x" value="3" overrideParent="True" />
+				<float name="y" value="2" overrideParent="True" />
+				<float name="z" value="3" overrideParent="True" />
+			</group>
+			<bool name="use_combat_range_on_selection" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-727728466" List.ParentItemID="-727728466">
+			<list name="hardpoints" removedIds="229779797">
+			</list>
+			<group name="attack_move">
+				<float name="attack_move_targeting_range" value="25" overrideParent="True" />
+				<float name="attack_move_priority_per_distance_meter" value="-0.2" overrideParent="True" />
+			</group>
+			<group name="idle_targeting">
+				<float name="idle_priority_per_distance_meter" value="-0.1" overrideParent="True" />
+				<float name="idle_targeting_range" value="13" overrideParent="True" />
+			</group>
+			<template_reference name="kill_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
+			</template_reference>
+			<float name="scan_interval_cached_target_invalid" value="0.5" overrideParent="True" />
+			<float name="scan_interval_cached_target_valid" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="795422691" List.ParentItemID="795422691">
+			<instance_reference name="pass_type" value="pass_types\infantry" overrideParent="True" />
+			<float name="rotation_rate" value="800" overrideParent="True" />
+			<instance_reference name="turn_plan" value="turn_plan\human" overrideParent="True" />
+			<enum_table name="speed_levels">
+				<float name="speed_level_0" value="1.5" overrideParent="True" />
+				<float name="speed_level_1" value="2.5" overrideParent="True" />
+				<float name="speed_level_2" value="3.45" overrideParent="True" />
+				<float name="speed_level_3" value="4.75" overrideParent="True" />
+				<float name="speed_level_4" value="5.5" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="4.5" overrideParent="True" />
+			</enum_table>
+			<enum name="snap_to_surface_type" value="GroundOrWalkable" overrideParent="True" />
+			<float name="deceleration" value="10" overrideParent="True" />
+			<bool name="use_prediction" value="False" overrideParent="True" />
+			<bool name="reduce_clipping_by_slowing_other" value="False" overrideParent="True" />
+			<template_reference name="pathfinding_option" value="options\ebpextensions\movingext\pathfinding_option">
+				<bool name="can_path_through_allies" value="False" overrideParent="True" />
+				<int name="path_blocking_priority" value="0" overrideParent="True" />
+				<bool name="right_of_way_evacuate_in_combat_allies" value="True" overrideParent="True" />
+			</template_reference>
+			<instance_reference name="navigation_agent_info" value="navigation\agent_info\naval\oar\naval_oar_small_agent_info" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-781389028" List.ParentItemID="-781389028">
+			<string name="speaker_code" value="tradeShip" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="-1972678168" List.ParentItemID="-1972678168">
+			<bool name="allow_entity_scan_close_enemies" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="617548696" List.ParentItemID="617548696">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-474741001" List.ParentItemID="-474741001">
+					<group name="tier" List.ItemID="1389814532" List.ParentItemID="1389814532">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\units\tier2_naval_scout_ship_mon" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
+						</template_reference>
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741927" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_light_combat_ship_2" />
+</instance>

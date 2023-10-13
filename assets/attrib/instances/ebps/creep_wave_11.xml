@@ -1,0 +1,46 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1869525707" List.ParentItemID="-1869525707">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gaia\animals\gaia_huntable_prototype_enchanted_stag" overrideParent="True" />
+			<enum name="subclass_type" value="Animal" overrideParent="True" />
+			<float name="entity_scale" value="200" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="675827046" List.ParentItemID="675827046">
+			<float name="hitpoints" value="100" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1341506288" List.ParentItemID="1341506288">
+			<enum name="selection_name" value="soldier" overrideParent="True" />
+			<float name="selection_scale" value="2" overrideParent="True" />
+			<enum name="selection_type" value="squad_select" overrideParent="True" />
+			<enum name="targeting_and_bandbox_selection_priority" value="highest" overrideParent="True" />
+			<enum name="selection_method" value="obb_size" overrideParent="True" />
+			<bool name="use_combat_range_on_selection" value="True" overrideParent="True" />
+			<group name="selection_secondary_bounds_scale">
+				<float name="x" value="1" overrideParent="True" />
+				<float name="y" value="1" overrideParent="True" />
+				<float name="z" value="1" overrideParent="True" />
+			</group>
+			<group name="selection_obb_size">
+				<float name="x" value="3" overrideParent="True" />
+				<float name="y" value="2" overrideParent="True" />
+				<float name="z" value="3" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-1225176921" List.ParentItemID="-1225176921">
+			<state_tree_node name="ActionTree_OpeningBranch" value="unit_entity" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="364529095" List.ParentItemID="364529095">
+			<string name="default_animation" value="" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="1804863216" List.ParentItemID="1804863216">
+			<group name="on_depletion">
+				<bool name="selectable_when_depleted" value="True" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="869527606" List.ParentItemID="869527606">
+			<string name="single_select_event" value="sfx_animal_stag_select" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2123253" />
+	<instance_reference name="parent_pbg" value="ebps\gaia\animals\gaia_huntable_deer" />
+</instance>
